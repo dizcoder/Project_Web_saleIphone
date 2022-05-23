@@ -1,0 +1,264 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 20, 2020, 8:51:40 PM
+    Author     : USE
+*/
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 20, 2020, 12:00:03 AM
+    Author     : asus
+*/
+
+
+*{
+    font-family: Arial;
+}
+
+
+.a_form{
+    height: 300px;
+    width: 500px;
+    background-color: #e1e1e1;
+    margin-left: 400px;
+    margin-top: 100px;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+#h2{
+    text-align: center; 
+}
+.edit{
+    display: flex;
+    justify-content: center;
+}
+body{
+    margin: 0px;
+}
+.form_left{
+    margin-top: -15px;
+    margin-right: 10px;
+    margin-left: -55px;
+}
+ul{
+    line-height: 27px;
+}
+li{
+    list-style-type: none;
+}
+.a_form form input{
+    line-height: 20px;
+}
+
+#top-nav{
+    background-color: #333;
+    color: #ffff;
+    height: 40px;
+    display: flex;
+    width: 100%;
+}
+
+#phoneIcon{
+    width: 10px;
+    height: 10px;
+}
+
+#top-nav-left {
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 65%;
+    display: inline-block;
+}
+
+#top-nav-right{
+    margin-top: 10px;
+    width: auto;
+}
+
+#top-nav-right a {
+    margin-left: 50px;  
+    width: 50px;
+}
+
+
+#top-nav a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+}
+#top-nav a:hover{
+    color: #00aaaa;
+}
+#top-nav a i{
+    color: #ff9f15;
+}
+#chinh-sach {
+    margin-top: 20px;
+    font-size: 20px;
+    width: auto; 
+}
+
+#chinh-sach span{
+    margin-left: 50px;  
+}
+
+#navbarSupportedContent{
+    display: flex;
+}
+
+#navbarSupportedContent ul li{
+    display: inline-block;
+}
+
+#bot-nav{
+    height: 50px;
+    background-color: #e1e1e1;
+}
+
+#nav-item{
+    margin-right: 20px;
+    padding-right: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+    border-right: 1px solid #fff;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#nav-item a{
+    color: #333;
+}
+
+#search-form{
+    margin-top: 10px;
+    padding-left: 600px;
+}
+
+#main-nav{
+    height: 70px;
+    display: flex;
+    width: 100%;
+}
+#main-nav img{
+    height: 350px;
+}
+
+
+.nav-item{
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 15px 20px;
+    display: block;
+    border-right: 1px solid #fff;
+    font-weight: bold;
+    font-size: 15px;
+
+}
+.nav-item a{
+    color: #333;
+}
+#bot-nav ul li:last-child{
+    border-right: none;
+}
+#btn-search{
+    background-color: #00aaaa;
+    color: #fff;
+}
+
+#footer{
+    display: flex;
+}
+
+#footer-item{
+    margin-right: 200px;
+    margin-left: 100px;
+    width: 30%;
+}
+
+#container-body{
+    display: inline-block;
+    width: 100%;
+}
+
+#body-page{
+    padding: 40px;
+    display: inline-block;
+    width: 50%;
+}
+
+
+#left-page{
+    float: left;
+    display: inline-block;
+    height: auto;
+    width: 30%;
+    padding-top: 100px;
+}
+
+#right-page{
+    margin-right: 40px;
+    padding-top: 100px;
+    float: right;
+    display: inline-block;
+    width: auto;
+}
+
+footer{
+    background-color: #333;
+    color: #ffff;
+}
+footer a{
+    text-decoration: none;
+    color: #ffff;
+}
+footer ul{
+    list-style: none;
+}
+
+#header{
+    padding-bottom: 10px;
+
+}
+
+#image1{
+    display: inline-block;
+}
+
+#image2{
+    padding-left: 30px;
+    display: inline-block;
+}
+
+#image2 p{
+    text-align: center;
+}
+
+.amountPage{
+    display: flex;
+}
+.pagination {
+    display: inline-block;
+}
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    background-color: burlywood;
+}
+.pagination a:active {
+    background-color: #4CAF50;
+    color: white;
+}
+.pagination a:hover:not(.active) {
+    background-color: chocolate;
+}
+
